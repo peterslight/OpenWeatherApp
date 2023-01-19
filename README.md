@@ -2,7 +2,7 @@
 
 #### Android app which will enable the user to search for weather data using open weather map API, get info on weather for seleceted cites for today, and the next 1 week.
 
-<img width=“964” alt=“dark”src=“https://github.com/peterslight/OpenWeatherApp/blob/master/screenshots/screen_dark.jpg?raw=true”>
+![alt text](https://github.com/peterslight/OpenWeatherApp/blob/master/screenshots/screen_dark.jpg?raw=true)
 
 ### Core Task
 
