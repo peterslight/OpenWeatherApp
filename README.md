@@ -32,21 +32,23 @@ Tech Stack
 
 This project follows a modularized approach:
 
-Option	Tech
-Language	Kotlin
-Arch Pattern	MVVM
-Network	Retrofit
-Android Arch	Single Activity Nav
-Theme	Material3
-Converter	GSON
-Network	Retrofit/OkHttp
-Db	Room Db
-MultiThreading	RxKotlin
-Dependency Injection	Dagger
-Imaging	Glide
-Tests	Spek Framework
-Mock	Mockk
-JDK	JDK 11
+| Option | Tech |
+| --- | --- |
+| Language | Kotlin |
+| Arch Pattern | MVVM |
+| Network | Retrofit |
+| Android Arch | Single Activity Nav |
+| Theme | Material3 |
+| Converter | GSON |
+| Network | Retrofit/OkHttp |
+| Db | Room Db |
+| MultiThreading | RxKotlin |
+| Dependency Injection | Dagger |
+| Imaging | Glide |
+| Tests | Spek Framework |
+| Mock | Mockk |
+| JDK | JDK 11 |
+
 Tests can be found in respective module tests packages
 
 ### License
