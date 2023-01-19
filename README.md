@@ -1,8 +1,8 @@
-## Brief
+# Brief
 
-# Android app which will enable the user to search for weather data using open weather map API, get info on weather for seleceted cites for today, and the next 1 week.
+#### Android app which will enable the user to search for weather data using open weather map API, get info on weather for seleceted cites for today, and the next 1 week.
 
-Core Task
+### Core Task
 
 All of the information should be retrieved from OpenWeatherMap APIs
 By default the main screen should show weather data for your current location 
@@ -17,7 +17,7 @@ Apk folder
 
 https://github.com/peterslight/OpenWeatherApp/blob/main/app/release
 
-How To Run
+### How To Run
 
 clone project
 [signup](https://home.openweathermap.org/users/sign_in) with OpenWeatherMap, then head to profile -> [My Api Keys](https://home.openweathermap.org/api_keys).
@@ -47,6 +47,6 @@ Mock	Mockk
 JDK	JDK 11
 Tests can be found in respective module tests packages
 
-License
+### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
