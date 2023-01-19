@@ -6,13 +6,13 @@
 
 ### Core Task
 
-All of the information should be retrieved from OpenWeatherMap APIs
-By default the main screen should show weather data for your current location 
-Implement an option to search for a specific location by city name.
-option to add the last searched location to Db and show persist on app restart.
-User should be informed if the internet connection is lost
-Download Apk
+-   All of the information should be retrieved from OpenWeatherMap APIs
+-   By default the main screen should show weather data for your current location 
+-   Implement an option to search for a specific location by city name.
+-   option to add the last searched location to Db and show persist on app restart.
+-   User should be informed if the internet connection is lost
 
+### Download Apk
 https://github.com/peterslight/OpenWeatherApp/tree/master/app/release/app-release.apk
 
 Apk folder
