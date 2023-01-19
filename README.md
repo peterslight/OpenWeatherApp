@@ -21,14 +21,15 @@ https://github.com/peterslight/OpenWeatherApp/tree/master/app/release
 
 ### How To Run
 
-clone project
-[signup](https://home.openweathermap.org/users/sign_in) with OpenWeatherMap, then head to profile -> [My Api Keys](https://home.openweathermap.org/api_keys).
-generate and activate a free key. NB it takes a while to be activated
-Inside the project open the SearchRepositoryImpl file. you have 2 options
-FAST add the api key directly in the service.searchWeatehr::apiKey param (same for other functions).
-RECOMMENDED add the api key to your environmemnt variables, and call it using System.getenv(yourApiKey) find out how to add environment variables [Here](https://chlee.co/how-to-setup-environment-variables-for-windows-mac-and-linux/)
-Build/Sync gradle files to download dependencies. NB project uses JDK-11 and the min android sdk is Sdk-24
-Tech Stack
+-   clone project
+-   [signup](https://home.openweathermap.org/users/sign_in) with OpenWeatherMap, then head to profile -> [My Api Keys](https://home.openweathermap.org/api_keys).
+-   generate and activate a free key. NB it takes a while to be activated
+-   Inside the project open the SearchRepositoryImpl file. you have 2 options
+-   -   FAST add the api key directly in the service.searchWeatehr::apiKey param (same for other functions).
+-   -   RECOMMENDED add the api key to your environmemnt variables, and call it using System.getenv(yourApiKey) find out how to add environment variables [Here](https://chlee.co/how-to-setup-environment-variables-for-windows-mac-and-linux/)
+-   Build/Sync gradle files to download dependencies. NB project uses JDK-11 and the min android sdk is Sdk-24
+
+###Tech Stack
 
 This project follows a modularized approach:
 
