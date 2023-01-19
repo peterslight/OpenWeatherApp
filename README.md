@@ -1,6 +1,6 @@
 ## Brief
 
-### Android app which will enable the user to search for weather data using open weather map API, get info on weather for seleceted cites for today, and the next 1 week.
+# Android app which will enable the user to search for weather data using open weather map API, get info on weather for seleceted cites for today, and the next 1 week.
 
 Core Task
 
