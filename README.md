@@ -4,7 +4,7 @@
 
 ![alt text](https://github.com/peterslight/OpenWeatherApp/blob/master/screenshots/screen_dark.jpssg)
 
-<img src="[relative/path/in/repository/to/image.svg](https://github.com/peterslight/OpenWeatherApp/blob/master/screenshots/screen_dark.jpg)" width="128"/>
+<img src="https://github.com/peterslight/OpenWeatherApp/blob/master/screenshots/screen_dark.jpg" width="128"/>
 
 ### Core Task
 
