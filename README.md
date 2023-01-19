@@ -11,11 +11,11 @@ option to add the last searched location to Db and show persist on app restart.
 User should be informed if the internet connection is lost
 Download Apk
 
-https://github.com/peterslight/OpenWeatherApp/blob/main/app/release/app-release.apk
+https://github.com/peterslight/OpenWeatherApp/tree/master/app/release/app-release.apk
 
 Apk folder
 
-https://github.com/peterslight/OpenWeatherApp/blob/main/app/release
+https://github.com/peterslight/OpenWeatherApp/tree/master/app/release
 
 ### How To Run
 
