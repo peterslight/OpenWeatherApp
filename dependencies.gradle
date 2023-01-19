@@ -1,0 +1,118 @@
+ext {
+    def coreKtxVersion = '1.7.0'
+    def androidExtensionsVersion = '1.5.0'
+    def kotlinVersion = '1.7.21'
+    def navVersion = '2.3.5'
+
+    kotlinCore = [
+            "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion",
+    ]
+    androidCore = [
+            "androidx.core:core-ktx:$coreKtxVersion",
+    ]
+    androidExtensions = [
+            "org.jetbrains.kotlin:kotlin-android-extensions-runtime:$androidExtensionsVersion",
+    ]
+
+    def fragmentVersion = '1.3.6'
+    def appCompatVersion = '1.5.1'
+    def materialVersion = '1.8.0-beta01'
+    def constraintVersion = '2.0.4'
+    def lifeCycleViewModelVersion = '2.5.0'
+    def lifeCycleVersion = '1.1.1'
+    def circleImageViewVersion = "3.1.0"
+    def recyclerViewVersion = "1.2.1"
+
+    androidUi = [
+            "androidx.appcompat:appcompat:$appCompatVersion",
+            "com.google.android.material:material:$materialVersion",
+            "androidx.constraintlayout:constraintlayout:$constraintVersion",
+            "androidx.recyclerview:recyclerview:$recyclerViewVersion",
+            "androidx.fragment:fragment-ktx:$fragmentVersion",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifeCycleViewModelVersion",
+            "androidx.lifecycle:lifecycle-livedata-ktx:$lifeCycleViewModelVersion",
+            "android.arch.lifecycle:extensions:$lifeCycleVersion",
+            "de.hdodenhof:circleimageview:$circleImageViewVersion",
+    ]
+
+    def gsonGsonVersion = '2.8.5'
+    def retrofitVersion = '2.6.2'
+    def retrofitConverterGsonVersion = '2.3.0'
+    def okHttpVersion = '4.9.1'
+
+    network = [
+            "com.squareup.retrofit2:retrofit:$retrofitVersion",
+            "com.squareup.retrofit2:converter-gson:$retrofitConverterGsonVersion",
+            "com.google.code.gson:gson:$gsonGsonVersion",
+            "com.squareup.okhttp3:okhttp:$okHttpVersion",
+            "com.squareup.okhttp3:logging-interceptor:$okHttpVersion",
+    ]
+
+    database = [
+            "com.google.code.gson:gson:$gsonGsonVersion"
+    ]
+
+    core = [
+            "com.google.code.gson:gson:$gsonGsonVersion",
+    ]
+
+    navigation = [
+            "androidx.navigation:navigation-fragment-ktx:$navVersion",
+            "androidx.navigation:navigation-ui-ktx:$navVersion",
+    ]
+
+    def roomVersion = "2.4.1"
+    room = [
+            libs    : "androidx.room:room-runtime:$roomVersion",
+            compiler: "androidx.room:room-compiler:$roomVersion"
+    ]
+
+    rxRoom = [
+            "androidx.room:room-rxjava3:2.4.0",
+            "androidx.room:room-paging:2.4.0"
+    ]
+
+    roomTesting = [
+            "androidx.room:room-testing:$roomVersion"
+    ]
+
+    def daggerVersion = '2.40.5'
+    dagger = [
+            libs    : "com.google.dagger:dagger:$daggerVersion",
+            compiler: "com.google.dagger:dagger-compiler:$daggerVersion"
+    ]
+
+    def glideVersion = '4.9.0'
+    glide = [
+            libs    : "com.github.bumptech.glide:glide:$glideVersion",
+            compiler: "com.github.bumptech.glide:compiler:$glideVersion"
+    ]
+
+    def rxVersion = '3.0.0'
+    rx = [
+            "io.reactivex.rxjava3:rxkotlin:$rxVersion",
+            "io.reactivex.rxjava3:rxandroid:$rxVersion",
+            "com.github.akarnokd:rxjava3-retrofit-adapter:$rxVersion",
+    ]
+
+    def assertjVersion = '3.15.0'
+    def mockkVersion = '1.12.0'
+    def spekVersion = '2.0.14'
+    def junitVersion = '4.13.2'
+    assertj = "org.assertj:assertj-core:$assertjVersion"
+    unitTesting = [
+            assertj,
+            "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion",
+            "io.mockk:mockk:$mockkVersion",
+            "io.mockk:mockk-agent-jvm:$mockkVersion",
+            "org.spekframework.spek2:spek-dsl-jvm:$spekVersion",
+            "org.spekframework.spek2:spek-runner-junit5:$spekVersion",
+            "junit:junit:$junitVersion"
+    ]
+
+    def javaxVersion = '1'
+    javax = "javax.inject:javax.inject:$javaxVersion"
+
+    def coreRuntimeVersion = '2.1.0'
+    coreRuntime = "androidx.arch.core:core-runtime:$coreRuntimeVersion"
+}

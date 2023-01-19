@@ -1,0 +1,52 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id "kotlin-kapt"
+    id "de.mannodermaus.android-junit5"
+}
+
+apply from: '../AndroidSpek.gradle'
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        minSdk 24
+        targetSdk 32
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation project(':domain')
+
+    implementation 'androidx.room:room-ktx:2.4.0'
+    kapt "androidx.room:room-compiler:2.4.0"
+
+    implementation androidCore
+    implementation database
+    implementation kotlinCore
+    implementation androidUi
+    implementation room.libs
+    kapt room.compiler
+    implementation rx
+    implementation rxRoom
+    implementation dagger.libs
+    kapt dagger.compiler
+}

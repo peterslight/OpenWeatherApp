@@ -1,0 +1,23 @@
+android {
+    testOptions {
+        unitTests.returnDefaultValues = true
+        junitPlatform {
+            filters {
+                engines {
+                    include 'spek2'
+                }
+            }
+        }
+        unitTests {
+            all {
+                testLogging.events = ["skipped", "failed"]
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation kotlinCore
+    testImplementation unitTesting
+    androidTestImplementation roomTesting
+}

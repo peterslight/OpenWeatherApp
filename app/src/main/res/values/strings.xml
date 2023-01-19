@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Open Weather App</string>
+    <string name="search_weather">search city</string>
+    <string name="search">search</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="later">Future</string>
+    <string name="we_found_no_results_for_try_searching_another_city">we found no results for %1$s, try searching another city</string>
+    <string name="temperature">%1$s°C</string>
+    <string name="humidity">%1$s Humid</string>
+    <string name="enter_text_to_search">add a city to search</string>
+    <string name="no_internet">you have no internet connection</string>
+    <string name="no_location">unable to get your location, search a city to see weather updates or grant precise location permissions</string>
+    <string name="network_error">unable to resolve host</string>
+    <string name="network_connect">failed to connect</string>
+    <string name="location_city">%1$s, %2$s, %3$s</string>
+    <string name="location">%1$s, %2$s.</string>
+    <string name="fetching_data">fetching data</string>
+    <string name="refresh_data">refreshing data</string>
+    <string name="refresh_location">getting weather for your location</string>
+    <string name="grant_permissions">grant permissions</string>
+</resources>

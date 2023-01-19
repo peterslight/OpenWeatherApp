@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        maven { url 'https://jitpack.io' }
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        //noinspection AndroidGradlePluginVersion
+        classpath "com.android.tools.build:gradle:7.0.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+        classpath "de.mannodermaus.gradle.plugins:android-junit5:1.8.2.0"
+        classpath 'androidx.navigation:navigation-safe-args-gradle-plugin:2.5.3'
+    }
+}
+
+plugins {
+    id 'com.android.application' version '7.2.2' apply false
+    id 'com.android.library' version '7.2.2' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10' apply false
+}
+
+apply from: 'dependencies.gradle'
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

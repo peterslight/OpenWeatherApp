@@ -1,0 +1,27 @@
+plugins {
+    id "java-library"
+    id "kotlin"
+    id "kotlin-kapt"
+}
+
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
+dependencies {
+    implementation project(':domain')
+
+    implementation kotlinCore
+    implementation javax
+    implementation network
+    implementation dagger.libs
+    kapt dagger.compiler
+    implementation rx
+
+    testImplementation unitTesting
+}
+
+test {
+    useJUnitPlatform {
+        includeEngines 'spek2'
+    }
+}
